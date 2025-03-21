@@ -1,0 +1,34 @@
+{
+  "name": "cypress-courier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "npm run cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriesfi/cypress-courier.git"
+  },
+  "keywords": [
+    "email",
+    "courier",
+    "cypress",
+    "plugin"
+  ],
+  "author": "Series Financial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriesfi/cypress-courier/issues"
+  },
+  "homepage": "https://github.com/seriesfi/cypress-courier#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
