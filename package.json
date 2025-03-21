@@ -1,13 +1,20 @@
 {
   "name": "@seriesfi/cypress-courier",
-  "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "A Cypress plugin for handling email testing with Courier",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "cypress/support"
+  ],
   "scripts": {
     "build": "tsc --build",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test": "npm run cy:run"
+    "test": "npm run cy:run",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +24,9 @@
     "email",
     "courier",
     "cypress",
-    "plugin"
+    "plugin",
+    "testing",
+    "e2e"
   ],
   "author": "Series Financial",
   "license": "MIT",
@@ -26,6 +35,7 @@
   },
   "homepage": "https://github.com/seriesfi/cypress-courier#readme",
   "devDependencies": {
+    "@types/node": "^20.11.24",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
