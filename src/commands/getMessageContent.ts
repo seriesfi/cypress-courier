@@ -24,4 +24,4 @@ declare global {
             getMessageContent(messageId: string): Chainable<CourierMessageContent>
         }
     }
-} 
+}

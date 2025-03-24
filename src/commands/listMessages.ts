@@ -43,4 +43,4 @@ declare global {
             listMessages(params: ListMessagesParams): Chainable<CourierMessages>
         }
     }
-} 
+}

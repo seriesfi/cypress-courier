@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "A Cypress plugin for handling email testing with Courier",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
